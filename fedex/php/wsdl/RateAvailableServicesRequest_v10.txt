@@ -1,0 +1,130 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v10="http://fedex.com/ws/rate/v10">
+<soapenv:Header/>
+<soapenv:Body>
+<v10:RateRequest>
+<v10:WebAuthenticationDetail>
+<v10:UserCredential>
+<v10:Key></v10:Key>
+<v10:Password></v10:Password>
+</v10:UserCredential>
+</v10:WebAuthenticationDetail>
+<v10:ClientDetail>
+<v10:AccountNumber></v10:AccountNumber>
+<v10:MeterNumber></v10:MeterNumber>
+</v10:ClientDetail>
+<v10:TransactionDetail>
+<v10:CustomerTransactionId>Rate a Single Package V10</v10:CustomerTransactionId>
+</v10:TransactionDetail>
+<v10:Version>
+<v10:ServiceId>crs</v10:ServiceId>
+<v10:Major>10</v10:Major>
+<v10:Intermediate>0</v10:Intermediate>
+<v10:Minor>0</v10:Minor>
+</v10:Version>
+<v10:ReturnTransitAndCommit>1</v10:ReturnTransitAndCommit>
+<v10:CarrierCodes>FDXE</v10:CarrierCodes>
+<v10:RequestedShipment>
+<v10:ShipTimestamp>2011-06-15T09:30:47-05:00</v10:ShipTimestamp>
+<v10:DropoffType>REGULAR_PICKUP</v10:DropoffType>
+<v10:PackagingType>YOUR_PACKAGING</v10:PackagingType>
+<v10:Shipper>
+<v10:AccountNumber></v10:AccountNumber>
+<v10:Tins>
+<v10:TinType>PERSONAL_STATE</v10:TinType>
+<v10:Number>1057</v10:Number>
+<v10:Usage>ShipperTinsUsage</v10:Usage>
+</v10:Tins>
+<v10:Contact>
+<v10:ContactId>SY32030</v10:ContactId>
+<v10:PersonName>Sunil Yadav</v10:PersonName>
+<v10:CompanyName>Syntel Inc</v10:CompanyName>
+<v10:PhoneNumber>9545871684</v10:PhoneNumber>
+<v10:PhoneExtension>020</v10:PhoneExtension>
+<v10:EMailAddress>sunil_yadav3@syntelinc.com</v10:EMailAddress>
+</v10:Contact>
+<v10:Address>
+<v10:StreetLines>SHIPPER ADDRESS LINE 1</v10:StreetLines>
+<v10:StreetLines>SHIPPER ADDRESS LINE 2</v10:StreetLines>
+<v10:City>COLORADO SPRINGS</v10:City>
+<v10:StateOrProvinceCode>CO</v10:StateOrProvinceCode>
+<v10:PostalCode>80915</v10:PostalCode>
+<v10:UrbanizationCode>CO</v10:UrbanizationCode>
+<v10:CountryCode>US</v10:CountryCode>
+<v10:Residential>0</v10:Residential>
+</v10:Address>
+</v10:Shipper>
+<v10:Recipient>
+<v10:Contact>
+<v10:PersonName>Receipient</v10:PersonName>
+<v10:CompanyName>Receiver Org</v10:CompanyName>
+<v10:PhoneNumber>9982145555</v10:PhoneNumber>
+<v10:PhoneExtension>011</v10:PhoneExtension>
+<v10:EMailAddress>receiver@yahoo.com</v10:EMailAddress>
+</v10:Contact>
+<v10:Address>
+<v10:StreetLines>RECIPIENT ADDRESS LINE 1</v10:StreetLines>
+<v10:StreetLines>RECIPIENT ADDRESS LINE 2</v10:StreetLines>
+<v10:City>DENVER</v10:City>
+<v10:StateOrProvinceCode>CO</v10:StateOrProvinceCode>
+<v10:PostalCode>80204</v10:PostalCode>
+<v10:UrbanizationCode>CO</v10:UrbanizationCode>
+<v10:CountryCode>US</v10:CountryCode>
+<v10:Residential>0</v10:Residential>
+</v10:Address>
+</v10:Recipient>
+<v10:RecipientLocationNumber>DEN001</v10:RecipientLocationNumber>
+<v10:Origin>
+<v10:Contact>
+<v10:ContactId>SY32030</v10:ContactId>
+<v10:PersonName>Sunil Yadav</v10:PersonName>
+<v10:CompanyName>Syntel Inc</v10:CompanyName>
+<v10:PhoneNumber>9545871684</v10:PhoneNumber>
+<v10:PhoneExtension>020</v10:PhoneExtension>
+<v10:EMailAddress>sunil_yadav3@syntelinc.com</v10:EMailAddress>
+</v10:Contact>
+<v10:Address>
+<v10:StreetLines>SHIPPER ADDRESS LINE 1</v10:StreetLines>
+<v10:StreetLines>SHIPPER ADDRESS LINE 2</v10:StreetLines>
+<v10:City>COLORADO SPRINGS</v10:City>
+<v10:StateOrProvinceCode>CO</v10:StateOrProvinceCode>
+<v10:PostalCode>80915</v10:PostalCode>
+<v10:UrbanizationCode>CO</v10:UrbanizationCode>
+<v10:CountryCode>US</v10:CountryCode>
+<v10:Residential>0</v10:Residential>
+</v10:Address>
+</v10:Origin>
+<v10:ShippingChargesPayment>
+<v10:PaymentType>SENDER</v10:PaymentType>
+<v10:Payor>
+<v10:AccountNumber></v10:AccountNumber>
+<v10:CountryCode>US</v10:CountryCode>
+</v10:Payor>
+</v10:ShippingChargesPayment>
+<v10:RateRequestTypes>ACCOUNT</v10:RateRequestTypes>
+<v10:PackageCount>1</v10:PackageCount>
+<v10:RequestedPackageLineItems>
+<v10:SequenceNumber>1</v10:SequenceNumber>
+<v10:GroupNumber>1</v10:GroupNumber>
+<v10:GroupPackageCount>1</v10:GroupPackageCount>
+<v10:Weight>
+<v10:Units>LB</v10:Units>
+<v10:Value>20.0</v10:Value>
+</v10:Weight>
+<v10:Dimensions>
+<v10:Length>12</v10:Length>
+<v10:Width>12</v10:Width>
+<v10:Height>12</v10:Height>
+<v10:Units>IN</v10:Units>
+</v10:Dimensions>
+<v10:PhysicalPackaging>BAG</v10:PhysicalPackaging>
+<v10:ContentRecords>
+<v10:PartNumber>PRTNMBR007</v10:PartNumber>
+<v10:ItemNumber>ITMNMBR007</v10:ItemNumber>
+<v10:ReceivedQuantity>10</v10:ReceivedQuantity>
+<v10:Description>ContentDescription</v10:Description>
+</v10:ContentRecords>
+</v10:RequestedPackageLineItems>
+</v10:RequestedShipment>
+</v10:RateRequest>
+</soapenv:Body>
+</soapenv:Envelope>

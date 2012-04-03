@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><soapenv:Body><v10:RateReply xmlns:v10="http://fedex.com/ws/rate/v10"><v10:HighestSeverity xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ERROR</v10:HighestSeverity><v10:Notifications xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><v10:Severity>ERROR</v10:Severity><v10:Source>crs</v10:Source><v10:Code>478</v10:Code><v10:Message>Rates for SmartPost return shipments are not currently available.</v10:Message><v10:LocalizedMessage>Rates for SmartPost return shipments are not currently available.</v10:LocalizedMessage></v10:Notifications><v10:TransactionDetail xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<v10:CustomerTransactionId>RateRequest_Smash_Prnt_Ret</v10:CustomerTransactionId>
+</v10:TransactionDetail><v10:Version xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<v10:ServiceId>crs</v10:ServiceId>
+<v10:Major>10</v10:Major>
+<v10:Intermediate>0</v10:Intermediate>
+<v10:Minor>0</v10:Minor>
+</v10:Version></v10:RateReply></soapenv:Body></soapenv:Envelope>

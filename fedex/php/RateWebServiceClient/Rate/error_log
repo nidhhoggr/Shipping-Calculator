@@ -1,0 +1,8 @@
+[20-Mar-2012 12:14:55] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/abbcoboo/public_html/fedex/php/RateWebServiceClient/Rate/RateWebServiceClient.php5 on line 113
+[20-Mar-2012 14:02:31] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ';' or '{' in /home/abbcoboo/public_html/fedex/php/RateWebServiceClient/Rate/RateWebServiceClient.php5 on line 37
+[20-Mar-2012 14:04:04] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/abbcoboo/public_html/fedex/php/RateWebServiceClient/Rate/RateWebServiceClient.php5 on line 69
+[20-Mar-2012 14:04:40] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/abbcoboo/public_html/fedex/php/library/fedex-common.php5 on line 194
+[20-Mar-2012 14:05:16] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/abbcoboo/public_html/fedex/php/library/fedex-common.php5 on line 194
+[20-Mar-2012 14:09:46] PHP Fatal error:  Call to a member function __getLastRequest() on a non-object in /home/abbcoboo/public_html/fedex/php/library/fedex-common.php5 on line 75
+[20-Mar-2012 14:28:23] PHP Warning:  require_once(../../library/Library.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/abbcoboo/public_html/fedex/php/RateWebServiceClient/Rate/RateService.php on line 6
+[20-Mar-2012 14:28:23] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../library/Library.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/abbcoboo/public_html/fedex/php/RateWebServiceClient/Rate/RateService.php on line 6
