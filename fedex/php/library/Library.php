@@ -16,27 +16,27 @@ class Library {
     private $settings = array(
                   'account_num'=>
                       array(
-                               'live'=>'111134022',
+                               'live'=>'',
                                'test'=> null
                            ),
                   'freight_account_num'=>
                       array(
-                               'live'=>36621373,
+                               'live'='',
                                'test'=>null
                            ),
                   'auth_key'=>
                       array(
-                               'live'=>'ykiYggHnBBOUVBY3',
+                               'live'=>'',
                                'test'=> null
                            ),
                   'password'=>
                       array(
-                               'live'=>'4GfuReWFydlzTWM8rbATZN2MV',
+                               'live'=>'',
                                'test'=> null
                            ),
                   'meter_num'=>
                       array(
-                               'live'=>'103727284',
+                               'live'=>'',
                                'test'=> null
                            ),
                  );

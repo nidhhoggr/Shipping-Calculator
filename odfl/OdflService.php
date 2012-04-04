@@ -1,8 +1,8 @@
 <?php
 
 class OdflService {
-    private $username = "abbcoboom";
-    private $pass     = "cchase";
+    private $username = "";
+    private $pass     = "";
 
     private $soapClient;
     private $wsdl = "https://www.odfl.com/wsRate_v1/services/ODRate?wsdl";
